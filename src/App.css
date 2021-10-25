@@ -1,0 +1,26 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.board > .row {
+  display: flex;
+  align-items: center;
+}
+.board > .row > .box {
+  margin: 0px;
+  border: 1px solid black;
+}
+.box {
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+}
+
+.box-1 {
+  color: red;
+  background-color: red;
+}
